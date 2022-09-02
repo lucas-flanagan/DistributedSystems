@@ -1,0 +1,1 @@
+Yes, my observation follows the Big-O time analysis of sort and stable from the go official documentation as sort duration for slice is significantly smaller than that of Stable due to the decreased time complexity described in the documentation. The increased complexity of Stable()'s O(n*log(n)*log(n)) results in the increase in time that we see in the program.
